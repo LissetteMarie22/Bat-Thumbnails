@@ -36,7 +36,7 @@ In MySQL to make sure that the filenames were recorded, and the thumbnailExists 
 
 ## Built With
 
-* [Python](https://www.python.org/- Programming language used
+* [Python](https://www.python.org/)- Programming language used
 * [MySQL](https://www.mysql.com/) - Database used.
 * [ScotchBox](https://github.com/scotch-io/scotch-box) If you don't have a Unix environment, you can download this , Vagrant, and a virtual machine (VirtualBox is what I used) to run a virtual Unix environment. 
 * (https://jonathanbossenger.com/setting-up-a-local-development-environment-with-scotch-box/) This will walk you through setting up a Vagrant Scotchbox environment.
