@@ -1,6 +1,6 @@
  # Bat Thumbnails\par
 \par
-This project is one part of a bigger web application. My part of the project was to create thumbnails for pictures in the images folder that didn't have one. The table itself was made by executing a sql file in a Unix terminal (I did NOT make this initial file).  The python script will , when executed:\par
+This project is  part of a bigger web application. My part of the project was to create thumbnails for pictures in the images folder that didn't have one. The table itself was made by executing a sql file in a Unix terminal (I did NOT make this initial file).  The python script will , when executed:\par
 1. Create a new column to this table, thumbnailExists  \par
 2. Look to see if a given file has a thumbnail for it.\par
 3. If so records that file's name. \par
@@ -8,8 +8,8 @@ This project is one part of a bigger web application. My part of the project was
 \par
 ## Getting Started
 \par
-You will need to be running a Unix teerminal. Download this file system so that you have all of the files you need and the correct folder tree structure.  \par
-Then use the following copy comands, if you're not using scotch box, you should change the destination directory to your home directory:\par
+You will need to be running a Unix terminal.   \par
+ Use the following copy commands, if you're not using scotch box, you should change the destination directory to your home directory:\par
 \par
 cp /var/www/2017_bat.tar /home/vagrant/static/images\par
 cp /var/www/bat_thumbs.tar /home/vagrant/static/images/thumbs\par
