@@ -12,15 +12,21 @@ You will need to be running a Unix teerminal. Download this file system so that 
 Then use the following copy comands, if you're not using scotch box, you should change the destination directory to your home directory:
 
 cp /var/www/2017_bat.tar /home/vagrant/static/images
+
 cp /var/www/bat_thumbs.tar /home/vagrant/static/images/thumbs
+
 cp /var/www/bats.sql /home/vagrant
 Run the following commands to extract the image files you need.
+
 cd /home/vagrant/static/images
+
 tar xvf 2017_bat.tar
 
 Then you need to run mySQL and use the bats.sql file to build the initial table. 
 Run the command 
 SET SESSION sql_mode = ' '; 
+
+
 so you can alter the table without getting errors about invalid default formats.
 import the static/images/thumbs folders to your home directory (/home/ . . .). 
 You can then make the python file executable, copy it to /usr/lib/cgi-bin (using sudo command)
@@ -30,8 +36,11 @@ Change directories to the cgi-bin and execute the python file.
 
 You can change directories to /home/<systemname>/static/images/thumbs and run the ls command to make sure you see the thumbnails made after runniing the python script.
 You can also run 
+
 USE bat_pics;
-SELECT * FROM bats 
+ 
+SELECT * FROM bats;
+
 In MySQL to make sure that the filenames were recorded, and the thumbnailExists column was made and it has 1s ather than 0 for the files with thumbnails
 
 ## Built With
