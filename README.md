@@ -40,8 +40,7 @@ In MySQL to make sure that the filenames were recorded, and the thumbnailExists 
 * [MySQL](https://www.mysql.com/) - Database used.
 * [ScotchBox](https://github.com/scotch-io/scotch-box) If you don't have a Unix environment, you can download this , Vagrant, and a virtual machine (VirtualBox is what I used) to run a virtual Unix environment. 
 *[ScotchBox Set up Guide](https://jonathanbossenger.com/setting-up-a-local-development-environment-with-scotch-box/) This will walk you through setting up a Vagrant Scotchbox environment.
-
-[Vagrant](https://www.vagrantup.com/) Allows  you to run virtual  lightweightenvironments like ScotchBox.
+*[Vagrant](https://www.vagrantup.com/) Allows  you to run virtual  lightweightenvironments like ScotchBox.
 *[VirtualBox](https://www.virtualbox.org/) Virtual Machine maker.
 
 
