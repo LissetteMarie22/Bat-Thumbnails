@@ -8,7 +8,7 @@ This project is one part of a bigger web application. My part of the project was
 
 ## Getting Started
 
-You will need to be running a Unix teerminal. Download this file system so that you have all of the files you need and the correct folder tree structure.  
+You will need to be running a Unix terminal. Download this file system so that you have all of the files you need and the correct folder tree structure.  
 Then use the following copy comands, if you're not using scotch box, you should change the destination directory to your home directory:
 
 cp /var/www/2017_bat.tar /home/vagrant/static/images
